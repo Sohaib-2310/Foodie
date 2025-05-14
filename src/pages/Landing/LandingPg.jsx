@@ -1,5 +1,5 @@
 import React from 'react'
-import './LandingPg.scss'
+import './LandingPg.css'
 
 const LandingPg = () => {
   return (
