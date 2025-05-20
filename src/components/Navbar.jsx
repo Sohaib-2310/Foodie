@@ -2,28 +2,32 @@ import React from 'react'
 import './Navbar.css'
 import { FaUser, FaSearch } from "react-icons/fa";
 import { PiShoppingCartSimpleFill } from "react-icons/pi";
+import { IoMenu } from "react-icons/io5";
+import Button from './Button'
 
 const Navbar = () => {
   return (
     <>
-      <nav className="flex justify-between items-center mx-12 w-auto border border-amber-600">
-        <div className="logo">Foodie</div>
+      <nav className="bg-green-400 flex justify-between items-center text-white px-11 py-5 w-auto">
+        <div className="logo cursor-pointer">Foodie</div>
 
-        <div className="menu-items flex">
-          <ul className="flex items-center">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Book Table</a></li>
+        <div className="menu-items hidden gap-40 lg:flex">
+          <ul className="flex items-center uppercase gap-[48px]">
+            <li><a href="#" className='text-[#ffbe33] '>Home</a></li>
+            <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33]'>Menu</a></li>
+            <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33]'>About</a></li>
+            <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33]'>Book Table</a></li>
           </ul>
 
-          <ul className="flex items-center">
-            <li><a href="#"><FaUser /></a></li>
-            <li><a href="#"><PiShoppingCartSimpleFill /></a></li>
-            <li><a href="#"><FaSearch /></a></li>
-            <li><button>Order Online</button></li>
+          <ul className="flex items-center gap-[15px]">
+            <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33] text-[16px]'><FaUser /></a></li>
+            <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33] text-[16px]'><PiShoppingCartSimpleFill /></a></li>
+            <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33] text-[16px]'><FaSearch /></a></li>
+            <li>< Button title="Online Order" /></li>
           </ul>
         </div>
+
+        <div className="menu-bar block lg:hidden"><a href="#" className='text-[50px]'><IoMenu /></a></div>
       </nav>
     </>
   )
