@@ -11,8 +11,8 @@ const Navbar = () => {
       <nav className="flex justify-between items-center text-white px-11 py-5 w-auto">
         <div className="logo cursor-pointer">Foodie</div>
 
-        <div className="menu-items hidden gap-40 lg:flex">
-          <ul className="flex items-center uppercase gap-[48px]">
+        <div className="menu-items hidden gap-35 lg:flex">
+          <ul className="flex items-center uppercase gap-[40px]">
             <li><a href="#" className='text-[#ffbe33] '>Home</a></li>
             <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33]'>Menu</a></li>
             <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33]'>About</a></li>
@@ -23,7 +23,7 @@ const Navbar = () => {
             <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33] text-[16px]'><FaUser /></a></li>
             <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33] text-[16px]'><PiShoppingCartSimpleFill /></a></li>
             <li><a href="#" className='duration-[0.3s] hover:text-[#ffbe33] text-[16px]'><FaSearch /></a></li>
-            <li>< Button title="Online Order" /></li>
+            <li>< Button title="Order Online" /></li>
           </ul>
         </div>
 

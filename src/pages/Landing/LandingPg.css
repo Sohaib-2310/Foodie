@@ -1,7 +1,18 @@
 @import "tailwindcss";
 
 .hero{
-    background-image: url('../../../public/assets/hero-bg.jpg');
+    background-image: url('../../assets/hero-bg.jpg');
     background-size: cover;
     background-position: center;
+}
+
+h1{
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+  font-weight: bol;
+  font-weight: bold;
+}
+
+.btn Button{
+    padding: 10px 45px;
 }
