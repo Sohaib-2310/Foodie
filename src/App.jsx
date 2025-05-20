@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.css";
-import LandingPg from "./pages/landing/LandingPg";
-import Navbar from "./components/Navbar";
+import LandingPg from "./pages/Landing/LandingPg";
 
 const App = () => {
   return (
     <>
       <LandingPg />
-      < Navbar />
     </>
   );
 };

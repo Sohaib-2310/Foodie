@@ -8,7 +8,7 @@ import Button from './Button'
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-green-400 flex justify-between items-center text-white px-11 py-5 w-auto">
+      <nav className="flex justify-between items-center text-white px-11 py-5 w-auto">
         <div className="logo cursor-pointer">Foodie</div>
 
         <div className="menu-items hidden gap-40 lg:flex">
